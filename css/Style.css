@@ -1,0 +1,234 @@
+body{
+	background-color: #BDC3C7;
+	text-align: justify;
+	font-size: 18px;
+
+}
+
+/*Premiere boite de la page index*/
+
+.box1{
+	height: 70%;
+	margin-bottom: 30px;
+}
+
+.image_principale{
+
+	width: 100%;
+	height: 30em;
+	margin-bottom: 5px;
+
+}
+
+.lien_accueil,.lien_cours,.lien_contact,.lien_info{
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	text-transform: capitalize;
+
+}
+
+.sous_box1{
+	background-color: #3498DB;
+	height: 3em;
+	margin-bottom: 30px;
+	padding-top: 1em;
+	padding-left: 4em;
+}
+
+
+/*Deuxieme boite de la page index*/
+
+.box2{
+	display: block;
+	height: 35em;
+	width: 900px;
+	margin-left: 200px;
+	font-size: 16px;
+}
+
+.image_dynamique1{
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin: 5px;
+}
+
+.phrase_dynamique1{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.nom_auteur{
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.auteur{
+	font-style: italic;
+	font-size: 20px;
+}
+
+.suite a{
+	text-decoration: none;
+	width: 100px;
+	height: 25px;
+	color: white;
+	background-color: #3498DB;
+	text-align: center;
+	border-size: 2px;
+	border-style: outset;
+	float: right;
+}
+
+/*Troisieme boite de la page index*/
+
+.premier_sous_box3{
+	background-color: #2980B9;
+	height: 50px;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+	text-align: right;
+
+}
+
+ul{
+	text-decoration: none;
+	list-style: none;
+	font-size: 18px;
+	padding: 10px;
+
+}
+
+li::before {
+	padding: 5px;
+	text-decoration: none;
+	content: "•  ";
+	color: white;
+}
+
+footer{
+	background-color: #3498DB;
+
+}
+
+/*Style deuxieme page "cours"*/
+
+/*deuxieme boite de la page cours*/
+
+.box2_page2{
+	display: block;
+	height: 40em;
+	width: 900px;
+	margin-left: 200px;
+	font-size: 15px;
+}
+
+
+.phrase_dynamique2{
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.titre_tableau{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.line1{ /*Style premiere ligne de la page"cours"*/
+	background-color: #2980B9;
+	color: white;
+}
+
+
+td{
+	border: 1px solid black;
+}
+
+table{
+	width: 100%;
+	height: 10em;
+	border-collapse: collapse;
+	font-size: 15px;
+}
+
+/*Style troisieme page, "Contact"*/
+
+.box2_page3{
+	display: block;
+	height: 35em;
+	width: 900px;
+	margin-left: 200px;
+	font-size: 15px;
+}
+
+.contact{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+.formulaire{
+	width: 500px;
+	height: 450px;
+	border: 2px solid #2980DB;
+	padding: 10px;
+	background-color: #3498DB;
+	margin-left: 165px;
+	color: white;
+}
+
+.theme_formulaire{
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+input{
+	border-bottom: 2.5px;
+	border-style: groove;
+}
+
+.input1,.input2,.input3,.input4{
+	width: 30em;
+	height: 2em;
+
+}
+
+.input5{
+	width: 34.5em;
+	height: 9em;
+}
+
+.input6{
+	width: 30em;
+	height: 2.5em;
+	text-align: center;
+	background-color: #BDC3C7 ;
+}
+
+
+/*Style quatrieme page, "apropos"*/
+
+.image_moi{
+	float: left;
+	width: 400px;
+	height: 550px;
+	margin: 5px;
+}
+
+.info_auteur{
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.box2_page4{
+	display: block;
+	height: 40em;
+	width: 900px;
+	margin-left: 200px;
+	font-size: 16px;
+}
